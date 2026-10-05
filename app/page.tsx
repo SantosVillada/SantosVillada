@@ -3,7 +3,7 @@ import { ArrowDown, ArrowUpRight, Spark } from "@/components/icons";
 import { ProjectCard } from "@/components/project-card";
 import { projects } from "@/data/projects";
 
-const siteUrl = "https://santosvillada.com";
+const siteUrl = "https://www.santosvillada.com";
 
 export default function Home() {
   return (

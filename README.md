@@ -20,7 +20,7 @@ La landing usa `mailto:scvillada@gmail.com` para preparar las consultas sin requ
 
 ## SEO
 
-El dominio canónico confirmado es `https://santosvillada.com`. La aplicación genera metadata, Open Graph, Twitter Card, JSON-LD, `robots.txt`, `sitemap.xml`, manifest e imagen social desde Next.js.
+El dominio canónico confirmado es `https://www.santosvillada.com`. La raíz `https://santosvillada.com` redirige allí. La aplicación genera metadata, Open Graph, Twitter Card, JSON-LD, `robots.txt`, `sitemap.xml`, manifest e imagen social desde Next.js.
 
 ## Proyectos mostrados
 
