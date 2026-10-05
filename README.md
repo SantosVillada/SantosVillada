@@ -18,9 +18,9 @@ npm run dev
 
 La landing usa `mailto:scvillada@gmail.com` para preparar las consultas sin requerir credenciales externas.
 
-## Configuración opcional
+## SEO
 
-Cuando el dominio de producción esté confirmado, definir `NEXT_PUBLIC_SITE_URL` para activar canonical, sitemap y URL del robots.
+El dominio canónico confirmado es `https://santosvillada.com`. La aplicación genera metadata, Open Graph, Twitter Card, JSON-LD, `robots.txt`, `sitemap.xml`, manifest e imagen social desde Next.js.
 
 ## Proyectos mostrados
 

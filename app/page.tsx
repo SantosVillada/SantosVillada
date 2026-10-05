@@ -3,6 +3,8 @@ import { ArrowDown, ArrowUpRight, Spark } from "@/components/icons";
 import { ProjectCard } from "@/components/project-card";
 import { projects } from "@/data/projects";
 
+const siteUrl = "https://santosvillada.com";
+
 export default function Home() {
   return (
     <>
@@ -26,7 +28,7 @@ export default function Home() {
         <section className="contact-section" id="contacto"><div className="section-wrap contact-grid"><div><div className="section-kicker">/ 05 — Contacto</div><h2>¿Tenés algo en mente?</h2><p>Contame qué querés construir, mejorar o automatizar. No hace falta que la idea esté completamente definida.</p><div className="contact-details"><a href="mailto:scvillada@gmail.com">scvillada@gmail.com <ArrowUpRight /></a><a href="https://wa.me/5493512155061" target="_blank" rel="noreferrer">WhatsApp: +54 9 351 215-5061 <ArrowUpRight /></a></div></div><ContactForm /></div></section>
       </main>
       <footer className="site-footer section-wrap"><a className="wordmark" href="#inicio">Santos Villada<span>.</span></a><p>Desarrollo web, productos digitales e IA aplicada.</p><a href="#inicio">Volver arriba ↑</a></footer>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@graph": [{ "@type": "Person", name: "Santos Villada", jobTitle: "Desarrollador web" }, { "@type": "ProfessionalService", name: "Santos Villada", description: "Desarrollo de productos digitales, aplicaciones web, automatizaciones e integraciones con IA.", areaServed: "Worldwide" }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@graph": [{ "@type": "Person", "@id": `${siteUrl}/#person`, name: "Santos Villada", url: siteUrl, jobTitle: "Desarrollador web", email: "scvillada@gmail.com", telephone: "+54 9 351 215-5061", sameAs: ["https://github.com/SantosVillada"] }, { "@type": "ProfessionalService", "@id": `${siteUrl}/#service`, name: "Santos Villada", url: siteUrl, description: "Desarrollo de productos digitales, aplicaciones web, automatizaciones e integraciones con IA.", areaServed: "Worldwide", provider: { "@id": `${siteUrl}/#person` } }] }) }} />
     </>
   );
 }
