@@ -14,7 +14,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     number: "01",
-    name: "AlwaysBela",
+    name: "SiempreBela",
     type: "Sitio de servicios",
     description: "Experiencia web para un centro de estética: servicios, alquiler de equipos y consultas de turnos por WhatsApp.",
     tags: ["Next.js", "TypeScript", "UX"],
